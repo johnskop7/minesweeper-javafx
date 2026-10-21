@@ -52,6 +52,7 @@ minesweeper-javafx/
 ├── medialab/
 │   └── example scenario files
 └── docs/
+    ├── course-handout.pdf
     └── report.pdf
 ```
 
@@ -84,6 +85,13 @@ The application validates the scenario before starting a game and reports invali
 ## Architecture
 
 The implementation separates responsibilities across classes: `MineSweeperGUI` manages the main interface and menus, `MineField` represents the game board, click-handler classes implement user interaction, `Initialization` creates mine layouts, `MineSweeperScenario` validates scenario files, and `CountdownTimer` manages time-limited rounds.
+
+## Documentation
+
+- `docs/course-handout.pdf` — original NTUA Multimedia Technology project handout
+- `docs/report.pdf` — original short implementation report, with personal identifiers removed for public sharing
+
+The assignment specifies the JavaFX GUI, two scenario difficulty levels, scenario validation through custom exceptions, countdown-based gameplay, recursive cell revealing, the Hypermine mechanic, and five-round history.
 
 ## Coursework Note
 
